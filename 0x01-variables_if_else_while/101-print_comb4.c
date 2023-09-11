@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *main - this program prints possible combinatioms of three digits
- * Retirn: 0 always
+ * main - this program prints possible combinatioms of three digits
+ * Return: 0 always
  */
 int main(void)
 {
