@@ -1,0 +1,16 @@
+#include <stdio.h>
+/**
+ * main - thsi program prints all single digits numbers of base 10
+ * using  putchar followed by a new line
+ * Return: always 0 when run successfullly
+ */
+int main(void)
+{
+int no;
+for (no = 48; no < 58; no++)
+{
+putchar(no);
+}
+putchar('\n');
+return (0)
+}
