@@ -1,16 +1,21 @@
 #include "main.h"
-#include <stdlib.h>
+#include <stdio.h>
 /**
- * print_to_98 - prints from n numbers to 98
- * @n: number to start printing from
- * Return: 0 always
- */
+
+ * print_to_98 - function that prints from n to 98
+  * followed by a new line
+  * @n: intergers to be printed
+  * Return: 0 always
+  */
 void print_to_98(int n)
 {
-for (n = 0; n <= 98; n++)
-{
-write("%d", n);
-_putchar(',');
-_putchar(' ');
-}
+int i;
+	if (n>=0 && n <= 98)
+	{
+		for (i = n; i <= 98; i++)
+		{
+			printf("%d", i);
+		}
+		printf("\n");
+	}
 }
