@@ -1,29 +1,43 @@
 #include "main.h"
 #include <stdio.h>
 /**
-
- * print_to_98 - function that prints from n to 98
+  * print_to_98 - prints numbers from n to 98
   * followed by a new line
-  * @n: intergers to be printed
-  * Return: 0 always
+  * @n: the number to be printeted
   */
 void print_to_98(int n)
 {
 int i;
-	if (n>=0 && n <= 98)
+if (n >= 0 && n <= 98)
+{
+	for (i = n; i <= 98; i++)
 	{
-		for (i = n; i <= 98; i++)
-		{
-			printf("%d", i);
-		}
-		printf("\n");
+		printf("%d", i);
 	}
-	else if (n==98)
-	{ 
-		for (i = n; i <= 98; i++ )
-		{
-			printf("%d", i);
-		}
-		printf("\n");
+	printf("\n");
+}
+else if (n < 0)
+{
+	for (i = n; i <= 98; i++)
+	{
+		printf("%d", i);
 	}
+	printf("\n");
+}
+else if (n > 98)
+{
+	for (i = n; i >= 98; i--)
+	{
+		printf("%d", i);
+	}
+	printf("\n");
+	}
+else if (n == 98)
+{
+	for (i = n; i == 98; i++)
+	{
+		printf("%d", i);
+	}
+	printf("\n");
+}
 }
