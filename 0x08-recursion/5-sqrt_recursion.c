@@ -6,7 +6,7 @@ int sq_numbers(int y, int r);
 /**
  * _sqrt_recursion - return the square root of n
  * @n: the number input
- * Return: -1 if n does not have natural square root 
+ * Return: -1 if n does not have natural square root
  */
 
 int _sqrt_recursion(int n)
@@ -24,8 +24,8 @@ int _sqrt_recursion(int n)
 /**
  * sq_numbers - returns the squares of a number
  * @y: the number to be squared
- * @r: square of the number
- * Return: y when done or -1 
+ * @n: square of the number
+ * Return: y when done or -1
  */
 
 int sq_numbers(int y, int n)
