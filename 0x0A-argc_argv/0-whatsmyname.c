@@ -5,7 +5,7 @@
  * followed by a new line.
  * @argv:  array of varaible
  * @argx: number of variables
- * Return: the name of the program
+ * Return: o
  */
 
 int main(int argx __attribute__((unused)), char *argv[])
