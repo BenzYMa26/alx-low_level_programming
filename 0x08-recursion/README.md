@@ -1,1 +1,1 @@
-this folder contains al the taks on recursion
+this dir contains recursion codess
